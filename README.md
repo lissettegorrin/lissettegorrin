@@ -1,76 +1,175 @@
-# Hi, I'm Lissette
+# Lissette Gorrin Rodriguez
 
-## AI Builder × Storyteller
+### AI Builder × Storyteller
 
-I build AI systems, intelligent automation, process orchestration, and software - then turn the engineering decisions, failures, and results into stories people can understand.
+I build applied AI systems and investigate the architecture that makes AI useful, observable, governable, and understandable in real business environments.
 
-I'm building through **Gradensal**, where I explore the space between AI/software prototypes and systems that can actually be operated, observed, recovered, and improved.
+I'm the founder of **[Gradensal](https://github.com/Gradensal)**, where I build and document experiments across reliable AI agents, intelligent workflows, AI governance, automation, and AI-native business systems.
 
----
+My work sits at the intersection of:
 
-## Featured Builds
-
-### GSB-001 - Process Deployment Loop
-
-**Camunda 8 · BPMN · Python · FastAPI · Human-in-the-loop · Incident Recovery**
-
-An end-to-end process orchestration build that moves from business requirement to executable BPMN, external system integration, human review, failure recovery, measurement, and operational handoff.
-
-**Highlights**
-- Integrated Camunda with Python job workers and a simulated legacy API
-- Added deterministic risk routing and human review
-- Deliberately triggered and recovered from an HTTP 503 integration incident
-- Ran a 10-claim synthetic experiment
-- 7/10 claims completed automatically
-- 9 automated tests
-- Clean-clone reproducibility validated
-
-➡️ [View GSB-001 on GitHub](https://github.com/gradensal/process-deployment-loop)
+**AI engineering · software systems · business strategy · technical storytelling**
 
 ---
 
-### GL-001 - Agent Flight Recorder
+## Current Research Direction
 
-**AI Agent Observability · Tool Telemetry · Policy Monitoring · Python · Streamlit**
+### Reliable Agent Systems
 
-A lightweight observability prototype exploring a simple question:
+I'm exploring a central question:
 
-> The AI agent gave the right answer — but what did it actually do to get there?
+> **What infrastructure do we need when AI stops merely generating output and begins participating in consequential work?**
 
-The build records tool activity, surfaces excessive or risky execution patterns, and separates answer quality from execution quality.
+| Lab | Research question |
+| --- | --- |
+| **GL-001 — Agent Flight Recorder** | What did the agent actually do? |
+| **GL-002 — Agent Intent Receipt** | What authority was the agent originally given? |
+| **GL-003 — Revocation Test** | What happens when authority changes mid-run? |
+| **GL-004 — Agent Delegation Boundary** | When may an agent ACT, ASK, or BLOCK? |
+| **GL-005 — Agent Knowledge Trust Gate** | Is the evidence behind the action trustworthy enough? |
 
-➡️ [View Agent Flight Recorder](https://github.com/gradensal/agent-flight-recorder)
+The series examines different layers of reliable agent architecture:
 
----
-
-## What I'm Exploring
-
-- AI agents and agentic systems
-- AI observability and governance
-- Process orchestration
-- Intelligent automation
-- Human-in-the-loop systems
-- RAG and knowledge systems
-- Applied AI product development
-- Technical storytelling
-- AI × business strategy
-
----
-
-## Gradensal
-
-**AI systems, intelligent automation & custom software that streamline business operations.**
-
-Gradensal is my entrepreneurial laboratory for building, testing, documenting, and communicating applied AI and software systems.
-
-➡️ [Gradensal on GitHub](https://github.com/gradensal)
+```text
+OBSERVE
+   ↓
+AUTHORIZE
+   ↓
+REVOKE
+   ↓
+DELEGATE
+   ↓
+VERIFY
+```
 
 ---
 
-## Current Direction
+## Featured Research
 
-I'm building toward roles and work at the intersection of:
+### GL-005 — Agent Knowledge Trust Gate
 
-**AI BUILDER × STORYTELLER**
+A deterministic evidence-policy experiment testing whether retrieved enterprise knowledge is trustworthy enough to support an AI agent action.
 
-I want to understand emerging AI deeply enough to build with it, business well enough to position it, and storytelling well enough to make people care.
+**Key result:** strong but conflicting evidence scored `0.928` in the controlled experiment and still triggered `VERIFY` because conflict detection operates as a hard policy rule rather than being hidden inside an aggregate score.
+
+**9 automated tests · GitHub Actions CI · reproducible experiment · documented architecture**
+
+[View the repository →](https://github.com/Gradensal/gl-005-agent-knowledge-trust-gate)
+
+---
+
+### GL-004 — Agent Delegation Boundary
+
+A deterministic policy experiment for governing persistent AI agents through explicit:
+
+**ACT · ASK · BLOCK**
+
+delegation boundaries.
+
+The project investigates how an agent can receive meaningful autonomy without requiring human approval for every action.
+
+[View the repository →](https://github.com/Gradensal/gl-004-agent-delegation-boundary)
+
+---
+
+### GL-003 — Revocation Test
+
+An experiment exploring what happens when delegated authority changes while an AI agent is already operating.
+
+It focuses on runtime authorization, revocation, and action-boundary enforcement.
+
+[View the repository →](https://github.com/Gradensal/gl-003-revocation-test)
+
+---
+
+### GL-002 — Agent Intent Receipt
+
+A deterministic prototype for validating delegated AI purchasing authority and generating human- and machine-readable intent receipts.
+
+[View the repository →](https://github.com/Gradensal/gl-002-agent-intent-receipt)
+
+---
+
+### GL-001 — Agent Flight Recorder
+
+A lightweight agent-observability prototype that records tool activity and flags suspicious post-execution behavior.
+
+[View the repository →](https://github.com/Gradensal/agent-flight-recorder)
+
+---
+
+## Applied AI Systems
+
+### Marketing AI Workflow Architect
+
+A decision-support system for determining the appropriate level of AI autonomy in marketing workflows.
+
+It combines deterministic workflow analysis, AI-assisted explanation, governance thinking, and a React/FastAPI product experience.
+
+[View the repository →](https://github.com/Gradensal/marketing-ai-workflow-architect)
+
+---
+
+### Process Deployment Loop
+
+An end-to-end enterprise process-orchestration experiment combining BPMN, Python workers, API integration, human review, incident recovery, and measurable outcomes.
+
+[View the repository →](https://github.com/Gradensal/process-deployment-loop)
+
+---
+
+## How I Build
+
+### BUILD → LEARN → SHOW
+
+I use projects as both engineering experiments and professional evidence.
+
+A meaningful project should leave behind:
+
+- working software;
+- automated tests;
+- reproducible experiments;
+- understandable architecture;
+- explicit engineering decisions;
+- security and failure considerations;
+- honest limitations;
+- professional documentation;
+- a clear explanation of why the work matters.
+
+---
+
+## Current Technical Focus
+
+**AI agents**  
+**Agent governance**  
+**Observability**  
+**Authorization and delegation**  
+**Reliable agent architecture**  
+**Enterprise AI**  
+**Intelligent workflows**  
+**AI automation**  
+**Applied AI product development**
+
+---
+
+## Core Stack
+
+`Python` · `FastAPI` · `Pydantic` · `pytest` · `React` · `TypeScript` · `Streamlit` · `Git` · `GitHub Actions`
+
+---
+
+## Beyond the Code
+
+I also write **AI in Motion | By Lissette**, where I examine emerging AI developments through the same lens I use in the lab:
+
+**What changed → why it matters → what most people may be missing → what I can test or build → what this means next**
+
+My goal is to understand emerging AI deeply enough to build with it, business well enough to recognize where it creates value, and storytelling well enough to make the ideas understandable.
+
+---
+
+### Building at [Gradensal](https://github.com/Gradensal)
+
+Applied AI · Reliable Agents · Intelligent Workflows · Enterprise Automation
+
+🌐 [lissettegorrin.com](https://lissettegorrin.com)
